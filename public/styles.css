@@ -65,8 +65,9 @@ button{
 }
 footer a{
   text-align: center;
+  text-decoration: none;
   display: block;
   color: #999;
   margin-top: 40px;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
