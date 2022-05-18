@@ -7,7 +7,7 @@ randomColor = (LARGEST_HEX) => {
     const g = Math.floor(Math.random()*LARGEST_HEX+1)
     const b = Math.floor(Math.random()*LARGEST_HEX+1)
 
-    return `rgb(${r},${g},${b})`
+    return `rgb(${r}, ${g}, ${b})`
 }
 
 export default randomColor
