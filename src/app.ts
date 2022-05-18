@@ -1,5 +1,9 @@
 import randomColor,{ LARGEST_HEX } from "./randomColor.js"
-console.log(randomColor(LARGEST_HEX))
-const gameDiv = document.querySelector(".div-boxes") as HTMLDivElement
+import createDiv from "./createDiv.js"
+import {COLORH1, GAMEDIV} from "./htmlElements.js"
+import game from "./game.js"
+
+
+game(3,GAMEDIV)
 
 
